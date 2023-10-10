@@ -1,44 +1,24 @@
+import React from 'react'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import SubFooter from './components/SubFooter'
+import About from './components/About'
+import Gallery from './components/Gallery'
+import Home from './components/Home'
+import Cards from './components/Cards'
+import Slider from './components/Slider'
 
-import * as THREE from 'three';
-
-import React,{useRef} from 'react';
-import {Canvas,useFrame} from 'react-three-fiber';
-import { Model } from './components/ElEMENTS';
-import { OrbitControls } from '@react-three/drei';
-import { useGLTF } from '@react-three/drei';
-// import { Box } from 'drei';
-// const SpinningMesh = ({position,args}) => {
-//   const mesh = useRef(null)
-//   useFrame(()=>(mesh.current.rotation.x=mesh.current.rotation.y+=0.01));
-//   return (
-//     <>
-//       <mesh position={position} ref={mesh} className="mes">
-//         <boxBufferGeometry attach="geometry" args={[-2,3,1]}/>
-//         <meshStandardMaterial attach='material' color='blue'/>
-//       </mesh>
-//     </>
-//   )
-// }
-const Device = (props)=> {
-  const { nodes, materials } = useGLTF('/ElEMENTS.glb');
+export default function App() {
   return (
-    <group {...props} dispose={null}>
-      <mesh geometry={nodes.Cube007.geometry} material={materials['Material.003']} rotation={[0, 1.28, 0]} scale={[0.23, 0.1, 0.23]} />
-    </group>
+    <div >
+      <Navbar/>
+      {/* <Slider/> */}
+      <Home/>
+      <About/>
+      <Gallery/>
+      <Cards/>
+      {/* <SubFooter/> */}
+      <Footer/>
+    </div>
   )
 }
-function App() {
-  return (
-   <>
-   <Canvas>
-   <mesh>
-   <OrbitControls/>
-<Model/>
-   </mesh>
- 
-   </Canvas>
-   </>
-  );
-}
-
-export default App;

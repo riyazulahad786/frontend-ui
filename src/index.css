@@ -1,13 +1,161 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.signup{
+  background-color: black;
+  border-radius: 16px;
+  color: white;
+}
+
+
+.footer li{
+  list-style: none;
+}
+.subfooter li{
+  list-style: none;
+}
+/* ------------------------about page-------------- */
+.about-logo{
+  border-radius: 82px;
+  height: 83px;
+  margin: 6px 26px;
+}
+.hr-ns{
+  margin: 3rem 0px !important;
+}
+.work-btn{
+    background: #0d0c22;
+    color: #fff;
+    width: 183px;
+    height: 42px;
+    border-radius: 22px;
+}
+
+/* --------------------gallery---------------- */
+.image-gallery{
+  width: 276px;
+  margin-bottom: 16px;
+}
+/* --------------------home-------------- */
+.logo-home{
+  width: 71px;
+  border-radius: 47px;
+  margin-left: 30px;
+  margin-bottom: 12px;
+}
+.home-btn{
+    border-radius: 22px;
+    width: 145px;
+    height: 51px;
+    margin: 24px;
+    background: #0d0c22;
+    color: #fff;
+}
+.logo-pos{
+  align-items: center;
+}
+
+
+.col-md-4 {
+  padding: 10px; /* Add padding to the columns for spacing */
+}
+
+.card-border {
+  border-radius: 10px; /* Add border radius to the images */
+  border: 1px solid #ccc; /* Add a border to the images */
+}
+.box{
+  width: 48px;
+    margin: 6px;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 26px;
+}
+.icons{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+}
+.hide{
+  visibility: hidden;
+}
+.purrweb{
+  font-size: 12px;
+}
+
+.icons-wd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* Add any other styles you need for the container */
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 100%; /* Ensure the video is responsive */
+}
+
+.video {
+  width: 79%;
+  height: auto; /* Maintain the video's aspect ratio */
+}
+.icon-as{
+  width: 51px;
+    border-radius: 34px;
+}
+.icons-wrapper {
+  position: fixed;
+  right: 40px;
+  top: 50%; /* Adjust as needed */
+  transform: translateY(-50%); /* Vertically center */
+  background-color: rgba(255, 255, 255, 0.8); /* Background color (adjust as needed) */
+  padding: 10px; /* Add padding as needed */
+  z-index: 1; /* Ensure the icons appear above other content */
+  /* Add any other styles you need for the icons container */
+}
+.car-btn{
+  width: 67px;
+}
+.car-btn {
+  /* Add default border properties here */
+  border: 2px solid transparent; /* Transparent border by default */
+  transition: border-color 0.3s; /* Smooth transition for border-color */
+}
+
+.car-btn:hover {
+  /* Add border properties for hover state here */
+  border-color: crimson; /* Change the border color on hover */
+}
+.carousel-item {
+  max-height: 500px; /* Adjust the maximum height as needed */
+}
+/* Additional responsive styles as needed */
+@media (max-width: 768px) {
+  .icons-wrapper {
+    display: none; /* Hide the icons on smaller screens */
+  }
+}
+
+.agency-name {
+  /* Add styles for the agency name */
+}
+
+.agency-description {
+  /* Add styles for the agency description */
+}
+
+.work-btn {
+  /* Add styles for the work button */
+}
+@media only screen and (max-width:850px) {
+  .video{
+    width: 90%;
+  }
 }
