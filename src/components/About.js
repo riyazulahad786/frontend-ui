@@ -46,7 +46,7 @@ function About() {
       </div> */}
 
       <div class="container icons-wd text-center">
-        <div class="video-wrapper ">
+        {/* <div class="video-wrapper ">
           <div id="myCarousel" className="carousel slide" data-ride="carousel">
             <ul className="carousel-indicators">
               <li
@@ -142,7 +142,53 @@ function About() {
               <img  className="car-btn" src="/assets/mens.png"/>
             </button>
           </div>
-        </div>
+        </div> */}
+        <div class="video-carousel">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <video class="d-block w-100" controls autoPlay loop muted>
+          <source src="/assets/animated_medium20211013-7919-1f40zxk.mp4" type="video/mp4"/>
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/mob.png" alt="Image 1" class="d-block mx-auto" className="img-fluid"/>
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/mobile.png" alt="Image 2" class="d-block mx-auto" className="img-fluid" />
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/mens.png" alt="Image 3" class="d-block mx-auto" className="img-fluid"/>
+      </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <div class="text-center mt-3">
+    <div class="btn" data-target="#myCarousel" data-slide-to="0">
+      <img class="car-btn" src="/assets/mob.png" />
+    </div>
+    <div class="btn" data-target="#myCarousel" data-slide-to="1">
+      <img class="car-btn" src="/assets/mobile.png" />
+    </div>
+    <div class="btn" data-target="#myCarousel" data-slide-to="2">
+      <img class="car-btn" src="/assets/mob.png" />
+    </div>
+    <div class="btn" data-target="#myCarousel" data-slide-to="3">
+      <img class="car-btn" src="/assets/mens.png" />
+    </div>
+  </div>
+</div>
+
         <div class="icons-wrapper">
           <div
             class=""
@@ -208,7 +254,7 @@ function About() {
           />
           <hr class="flex-fill hr-ns" />
         </div>
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center mt-3">
           <h1 class="agency-name">Purrweb UI/UX Agency</h1>
         </div>
         <div class="d-flex justify-content-center">
