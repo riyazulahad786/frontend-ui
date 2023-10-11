@@ -143,17 +143,25 @@
   }
 }
 
-.agency-name {
-  /* Add styles for the agency name */
+.infinite-slider {
+  display: flex;
+  overflow: hidden;
 }
 
-.agency-description {
-  /* Add styles for the agency description */
+.slider-image {
+  flex: 0 0 100%;
+  transition: transform 0.5s;
 }
 
-.work-btn {
-  /* Add styles for the work button */
+.slider-image img {
+  width: 100%;
+  height: auto;
 }
+
+.slider-image.active {
+  transform: translateX(0);
+}
+
 @media only screen and (max-width:850px) {
   .video{
     width: 90%;

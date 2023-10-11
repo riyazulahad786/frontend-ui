@@ -7,6 +7,7 @@ import Gallery from './components/Gallery'
 import Home from './components/Home'
 import Cards from './components/Cards'
 import Slider from './components/Slider'
+import InfiniteSlider from './components/InfiniteSlider'
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <About/>
       <Gallery/>
       <Cards/>
+      <InfiniteSlider/>
       {/* <SubFooter/> */}
       <Footer/>
     </div>
