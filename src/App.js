@@ -19,7 +19,7 @@ export default function App() {
       <Gallery/>
       <Cards/>
       <InfiniteSlider/>
-      {/* <SubFooter/> */}
+      <SubFooter/>
       <Footer/>
     </div>
   )
