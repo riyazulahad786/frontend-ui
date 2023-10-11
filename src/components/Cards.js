@@ -54,6 +54,7 @@ function Cards() {
     //     </div>
     // </div>
     <div className="container">
+    <hr/>
     <div className='d-flex justify-content-start'><span className='fw-bold mx-3'>You might also like</span></div>
     <div className="row card-margin">
         <div className="col-md-4">
