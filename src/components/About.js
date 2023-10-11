@@ -147,7 +147,7 @@ function About() {
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <video class="d-block w-100" controls autoPlay loop muted>
+                <video class="d-block w-100  main-video" controls autoPlay loop muted>
                   <source
                     src="/assets/animated_medium20211013-7919-1f40zxk.mp4"
                     type="video/mp4"
@@ -160,7 +160,7 @@ function About() {
                   src="assets/mob.png"
                   alt="Image 1"
                   class="d-block mx-auto"
-                  className="img-fluid"
+                  className="img-fluid slider-k"
                 />
               </div>
               <div class="carousel-item">
@@ -168,7 +168,7 @@ function About() {
                   src="/assets/mobile.png"
                   alt="Image 2"
                   class="d-block mx-auto"
-                  className="img-fluid"
+                  className="img-fluid slider-k"
                 />
               </div>
               <div class="carousel-item">
@@ -176,7 +176,7 @@ function About() {
                   src="/assets/mens.png"
                   alt="Image 3"
                   class="d-block mx-auto"
-                  className="img-fluid"
+                  className="img-fluid slider-k"
                 />
               </div>
             </div>

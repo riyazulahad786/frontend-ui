@@ -167,6 +167,16 @@
   height: auto;
   margin-left: 28px;
 }
+.slider-k{
+  margin-left: 27px;
+}
+/* .card-margin{
+  margin-left: 18px;
+} */
+/* .main-video{
+  margin-left: 42px;
+  width: 83%;
+} */
 @media only screen and (max-width:850px) {
   .video{
     width: 90%;
@@ -179,5 +189,9 @@
   }
   .footer-zx{
     display: none;
+  }
+  .main-video{
+    margin-left: 42px;
+    width: 83% !important;
   }
 }

@@ -55,8 +55,8 @@ function Cards() {
     // </div>
     <div className="container">
     <hr/>
-    <div className='d-flex justify-content-start'><span className='fw-bold mx-3'>You might also like</span></div>
-    <div className="row card-margin">
+    <div className='d-flex justify-content-start'><span className='fw-bold mx-4'>You might also like</span></div>
+    {/* <div className="row card-margin">
         <div className="col-md-4">
             <img className='card-border img-fluid' src="/assets/img1.png" alt="Image 1"/>
         </div>
@@ -66,8 +66,21 @@ function Cards() {
         <div className="col-md-4">
             <img className='card-border img-fluid' src="/assets/img1.png" alt="Image 3"/>
         </div>
+    </div> */}
+
+    <div className="row card-margin mx-auto">
+    <div className="col-md-4">
+        <img className='card-border img-fluid' src="/assets/img1.png" alt="Image 1"/>
     </div>
-    <div className="row card-margin">
+    <div className="col-md-4">
+        <img className='card-border img-fluid' src="/assets/img1.png" alt="Image 2"/>
+    </div>
+    <div className="col-md-4">
+        <img className='card-border img-fluid' src="/assets/img1.png" alt="Image 3"/>
+    </div>
+</div>
+
+    <div className="row card-margin mx-auto">
         <div className="col-md-4">
             <img className='card-border img-fluid' src="/assets/img1.png" alt="Image 4"/>
         </div>
