@@ -54,7 +54,7 @@ function Cards() {
     //     </div>
     // </div>
     <div className="container">
-    <div className='d-flex justify-content-start'><span className='fw-bold'>You might also like</span></div>
+    <div className='d-flex justify-content-start'><span className='fw-bold mx-3'>You might also like</span></div>
     <div className="row card-margin">
         <div className="col-md-4">
             <img className='card-border img-fluid' src="/assets/img1.png" alt="Image 1"/>
