@@ -12,7 +12,7 @@ function Footer() {
         <li className='mx-1'>Cookies</li>
        </ul>
        </div>
-       <div className='col  d-flex justify-content-end'>
+       <div className='col  d-flex justify-content-end footer-zx'>
        <ul className='d-flex  footer'>
        <li className='mx-1'>Jobs</li>
         <li className='mx-1'>Designer</li>

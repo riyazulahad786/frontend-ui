@@ -162,6 +162,11 @@
   transform: translateX(0);
 }
 
+.img-fluid{
+  max-width: 93%;
+  height: auto;
+  margin-left: 28px;
+}
 @media only screen and (max-width:850px) {
   .video{
     width: 90%;
@@ -172,5 +177,7 @@
   .hidden{
     display: none;
   }
-  
+  .footer-zx{
+    display: none;
+  }
 }

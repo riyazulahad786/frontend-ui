@@ -180,6 +180,7 @@ function About() {
                 />
               </div>
             </div>
+            {/* <div className="palete"></div> */}
 
             <a
               class="carousel-control-prev"
@@ -206,7 +207,7 @@ function About() {
               <span class="sr-only">Next</span>
             </a>
           </div>
-
+              
           <div class="text-center mt-3">
             <div class="btn" data-target="#myCarousel" data-slide-to="0">
               <img class="car-btn" src="/assets/mob.png" />
