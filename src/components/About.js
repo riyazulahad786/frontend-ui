@@ -144,50 +144,84 @@ function About() {
           </div>
         </div> */}
         <div class="video-carousel">
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <video class="d-block w-100" controls autoPlay loop muted>
-          <source src="/assets/animated_medium20211013-7919-1f40zxk.mp4" type="video/mp4"/>
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div class="carousel-item">
-        <img src="assets/mob.png" alt="Image 1" class="d-block mx-auto" className="img-fluid"/>
-      </div>
-      <div class="carousel-item">
-        <img src="/assets/mobile.png" alt="Image 2" class="d-block mx-auto" className="img-fluid" />
-      </div>
-      <div class="carousel-item">
-        <img src="/assets/mens.png" alt="Image 3" class="d-block mx-auto" className="img-fluid"/>
-      </div>
-    </div>
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <video class="d-block w-100" controls autoPlay loop muted>
+                  <source
+                    src="/assets/animated_medium20211013-7919-1f40zxk.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/mob.png"
+                  alt="Image 1"
+                  class="d-block mx-auto"
+                  className="img-fluid"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/assets/mobile.png"
+                  alt="Image 2"
+                  class="d-block mx-auto"
+                  className="img-fluid"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/assets/mens.png"
+                  alt="Image 3"
+                  class="d-block mx-auto"
+                  className="img-fluid"
+                />
+              </div>
+            </div>
 
-    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
+            <a
+              class="carousel-control-prev"
+              href="#myCarousel"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#myCarousel"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
 
-  <div class="text-center mt-3">
-    <div class="btn" data-target="#myCarousel" data-slide-to="0">
-      <img class="car-btn" src="/assets/mob.png" />
-    </div>
-    <div class="btn" data-target="#myCarousel" data-slide-to="1">
-      <img class="car-btn" src="/assets/mobile.png" />
-    </div>
-    <div class="btn" data-target="#myCarousel" data-slide-to="2">
-      <img class="car-btn" src="/assets/mob.png" />
-    </div>
-    <div class="btn" data-target="#myCarousel" data-slide-to="3">
-      <img class="car-btn" src="/assets/mens.png" />
-    </div>
-  </div>
-</div>
+          <div class="text-center mt-3">
+            <div class="btn" data-target="#myCarousel" data-slide-to="0">
+              <img class="car-btn" src="/assets/mob.png" />
+            </div>
+            <div class="btn" data-target="#myCarousel" data-slide-to="1">
+              <img class="car-btn" src="/assets/mobile.png" />
+            </div>
+            <div class="btn" data-target="#myCarousel" data-slide-to="2">
+              <img class="car-btn" src="/assets/mob.png" />
+            </div>
+            <div class="btn" data-target="#myCarousel" data-slide-to="3">
+              <img class="car-btn" src="/assets/mens.png" />
+            </div>
+          </div>
+        </div>
 
         <div class="icons-wrapper">
           <div
@@ -244,6 +278,20 @@ function About() {
           >
             <i class="fa fa-info" aria-hidden="true"></i>
           </div>
+        </div>
+
+        <div className="text-center mx-auto mt-5 container">
+          <p>
+            The team is available for new projects! Drop us a line:
+            hello@purrweb.com | WhatsApp | Website
+          </p>
+          <p>
+            The first screen is the main page of the app. The largest block in
+            the app — the book area.
+          </p>
+          <p>On the right — the short description of the selected book, also there
+          is a side menu navigation ↘️</p>
+          <p>The main colors — white and deep blue, we picked these neutral  users from the content ⚪️🔵</p>
         </div>
         <div class="d-flex justify-content-center mt-4">
           <hr class="flex-fill hr-ns" />
